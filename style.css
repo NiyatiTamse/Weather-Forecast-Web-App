@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: cursive;
+
+}
+body{
+    background-color: rgb(173, 241, 241);
+}
+.container{
+    background-color:whitesmoke;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 40px;
+    
+
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6) ;
+    border-radius: 10px;
+}
+form
+{
+    align-items:center ;
+    
+
+}
+form input[type="text"]
+{
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    width: 70%;
+    outline: none;
+
+}
+form input[type="submit"
+
+]
+{
+
+    padding: 10px 20px;
+    background-color: rgb(225, 93, 11);
+    border: none;
+    border-radius:10px;
+    color: aliceblue;
+    transition: all 0.1s ease-in;
+    
+}
+form input[type="submit"]:hover
+{
+    background-color:rgb(213, 116, 136);
+    cursor:pointer;
+    
+
+}
+.icon{
+    width: 100%
+    height: 10px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.desc{
+    font-size: 25px;
+   font-weight:40px;
+   margin-top:5px;
+   margin-bottom:5px;
+   font-weight:20px;
+}
+.temp{
+    font-size: 27px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight: 25px;
+
+}
+.details{
+ display:flex;
+ justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.details>div{
+    font-size:20px;
+    background-color: rgb(234, 175, 199);
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    text-align: center;
+    align-items:center;
+    flex:1;
+}
